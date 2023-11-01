@@ -1,6 +1,6 @@
 const quizForm = document.querySelector(".quiz-form")
 const submitAnsBtn = document.querySelector("#submit-ans-btn")
-const outputElm = document.querySelector("output-quiz")
+const outputElm = document.querySelector("#output-quiz")
 
 const correctAnswers = ["90°","Right angled"]
 
@@ -14,8 +14,8 @@ function calculateScore(){
         }
         index = index+1
     }
-   // console.log(score)
-    outputElm.innerText = "Your score is " + score
+    // console.log(score)
+    outputElm.innerText = "Your score is " + score;
 }
 
 submitAnsBtn.addEventListener("click",calculateScore)
