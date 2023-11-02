@@ -1,15 +1,15 @@
-const sides = document.querySelector(".each-sides")
+const input = document.querySelector(".each-side")
 const areaBtn = document.querySelector("#area-btn")
 const outputElm = document.querySelector("#output")
 
 function calculateHalfOfBredthIntoHeight(a, b, c){
-    const semiperimeter = Math.floor((a+b+c)/2)
+    const semiperimeter = a + b + c
     //console.log(semiperimeter)
     return semiperimeter
 }
 
 function calculateArea(){
-    const simplify = calculateHalfOfBredthIntoHeight(Number(sides[0].value),Number(sides[1].value),Number(sides[2].value))
+    const simplify = calculateHalfOfBredthIntoHeight(Number(input[0].value), Number(input[1].value), Number(input[2].value))
     console.log(simplify)
 }
 
