@@ -1,4 +1,4 @@
-const input = document.querySelector(".each-side")
+const input = document.querySelectorAll(".each-side")
 const areaBtn = document.querySelector("#area-btn")
 const outputElm = document.querySelector("#output")
 
