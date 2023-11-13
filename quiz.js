@@ -14,8 +14,8 @@ function calculateScore(){
         }
         index = index+1
     }
-    // console.log(score)
-    outputElm.innerText = "Your score is " + score;
+    console.log(score)
+    // outputElm.innerText = "Your score is " + score;
 }
 
 submitAnsBtn.addEventListener("click",calculateScore)
