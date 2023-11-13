@@ -5,7 +5,7 @@ body{
 }
 
 nav{
-    background-color: rgb(21, 15, 59);
+    background-color: rgb(16, 29, 66);
     padding: 10px;
     text-align: center;
     padding-top: 30px;
@@ -25,7 +25,7 @@ h1{
 }
 
 .main{
-    background-color: rgb(21, 15, 59);
+    background-color: rgb(16, 29, 66);
     text-align: center;
     display: block;
     padding: 20px;
@@ -52,7 +52,7 @@ button{
     border: none;
     border-radius: 5px;
     margin: 1rem 1rem;
-    background-color: rgb(246, 157, 172);
+    background-color: pink;
 }
 
 textarea{
@@ -61,7 +61,7 @@ textarea{
 }
 
 .footer{
-    background-color: rgb(21, 15, 59);
+    background-color: rgb(16, 29, 66);
     margin-top: 40px;
     padding: 1rem;
     text-align: center;
