@@ -20,6 +20,10 @@ nav a{
     color: white
 }
 
+nav a:hover{
+    color: pink;
+}
+
 h1{
     text-align: center;
 }
