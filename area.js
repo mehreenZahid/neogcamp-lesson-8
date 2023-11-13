@@ -10,7 +10,7 @@ function calculateHalfOfBredthIntoHeight(a, b, c){
 
 function calculateArea(){
     const simplify = calculateHalfOfBredthIntoHeight(Number(input[0].value), Number(input[1].value), Number(input[2].value))
-    console.log(simplify)
+    outputElm.innerText = "The area of rectangle is "+ simplify
 }
 
 areaBtn.addEventListener("click", calculateArea)
