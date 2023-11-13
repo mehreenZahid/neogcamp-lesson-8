@@ -2,15 +2,15 @@ const input = document.querySelectorAll(".each-side")
 const areaBtn = document.querySelector("#area-btn")
 const outputElm = document.querySelector("#output")
 
-function calculateHalfOfBredthIntoHeight(a, b, c){
-    const semiperimeter = a + b + c
-    //console.log(semiperimeter)
-    return semiperimeter
+function calculateHalfOfBredthIntoHeight(a, b){
+    const area = 1/2*(a*b)
+    //console.log(area)
+    return area
 }
 
 function calculateArea(){
-    const simplify = calculateHalfOfBredthIntoHeight(Number(input[0].value), Number(input[1].value), Number(input[2].value))
-    outputElm.innerText = "The area of rectangle is "+ simplify
+    const simplify = calculateHalfOfBredthIntoHeight(Number(input[0].value), Number(input[1].value))
+    outputElm.innerText = "The area of triangle is "+ simplify
 }
 
 areaBtn.addEventListener("click", calculateArea)
