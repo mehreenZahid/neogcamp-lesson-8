@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Area</title>
+    <title>Calculate Area</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
         <a href="index.html">Is Triangle</a>
-        <a href="quiz.html">Triangle Quiz</a>
+        <a href="quiz.html">Quiz</a>
         <a href="hypotenuse.html">Calculate Hypotenuse</a>
         <a href="area.html">Calculate Area</a>
     </nav>
-    <h1>Calculate Area</h1>
-    <label>Enter Base</label>
-    <input type="number" class="each-side">
-    <label>Enter Height</label>
-    <input type="number" class="each-side">
-    <button id="area-btn">Calculate Area</button>
-    <div id="output"></div>
+    <h1>CALCULATE AREA</h1>
+    <div class="main" style="height: 361px;">
+        <label>Enter Base : </label>
+        <input type="number" class="each-side"><br>
+        <label>Enter Height : </label>
+        <input type="number" class="each-side"><br>
+        <button id="area-btn">Calculate Area</button><br>
+        <div class="txt-output">
+            <textarea id="output" id="" cols="30" rows="7" placeholder="Your output will be shown here!" disabled></textarea>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Project by <b>Mehreen Zahid</b></p>
+    </div>
 
     <script src="area.js"></script>
 </body>

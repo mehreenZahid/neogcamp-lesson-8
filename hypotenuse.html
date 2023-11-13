@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
         <a href="index.html">Is Triangle</a>
-        <a href="quiz.html">Triangle Quiz</a>
+        <a href="quiz.html">Quiz</a>
         <a href="hypotenuse.html">Calculate Hypotenuse</a>
         <a href="area.html">Calculate Area</a>
     </nav>
-    <h1>Calculate Hypotenuse</h1>
-    <label>a = </label>
-    <input type="number" class="side-input">
-    <label>b = </label>
-    <input type="number" class="side-input">
-    <button id="hypotenuse-btn">Calculate Hypotenuse</button>
-    <div id="output"></div>
+    <h1>CALCULATE HYPOTENUSE</h1>
+    <div class="main" style="height: 361px;">
+        <label>a = </label>
+        <input type="number" class="side-input"><br>
+        <label>b = </label>
+        <input type="number" class="side-input"><br>
+        <button id="hypotenuse-btn">Calculate Hypotenuse</button><br>
+        <div class="txt-output">
+            <textarea id="output" id="" cols="30" rows="7" placeholder="Your output will be shown here!" disabled></textarea>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Project by <b>Mehreen Zahid</b></p>
+    </div>
 
     <script src="hypotenuse.js"></script>
 </body>

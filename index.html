@@ -3,24 +3,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun With Triangle</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
-        <a href="index.html">Is Triangle</a>
-        <a href="quiz.html">Triangle Quiz</a>
+        <a href="#index.html">Is Triangle</a>
+        <a href="quiz.html">Quiz</a>
         <a href="hypotenuse.html">Calculate Hypotenuse</a>
         <a href="area.html">Calculate Area</a>
     </nav>
-    <h1>Is Triangle?</h1>
-    <label for="angleOne">angle1</label>
-    <input type="number" class="angle-input">
-    <label for="angleTwo">angle2</label>
-    <input type="number" class="angle-input">
-    <label for="angleThree">angle3</label>
-    <input type="number" class="angle-input">
+    <h1>IS TRIANGLE?</h1>
+    <div class="main">
 
-    <button id="is-triangle-btn">Check</button>
-    <div id="output"></div>
+        <label for="angleOne">Angle1 = </label>
+        <input type="number" class="angle-input"><br>
+        <label for="angleTwo">Angle2 = </label>
+        <input type="number" class="angle-input"><br>
+        <label for="angleThree">Angle3 =</label>
+        <input type="number" class="angle-input"><br>
+
+        <button id="is-triangle-btn">Check</button><br>
+        <div class="txt-output">
+            <textarea id="output" id="" cols="30" rows="7" placeholder="Your output will be shown here!" disabled></textarea>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Project by <b>Mehreen Zahid</b></p>
+    </div>
 
     <script src="script.js"></script>
 </body>
